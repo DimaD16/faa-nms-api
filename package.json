@@ -1,0 +1,39 @@
+{
+  "name": "faa-nms-api",
+  "version": "0.1.1",
+  "description": "A fully typed, robust, and zero-dependency Node.js/TypeScript client for the Federal Aviation Administration (FAA) NOTAM Management System (NMS) API.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "test": "tsx tests/index.test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "faa",
+    "nms",
+    "notam",
+    "aviation",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/nock": "^10.0.3",
+    "@types/node": "^25.6.0",
+    "nock": "^14.0.14",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
