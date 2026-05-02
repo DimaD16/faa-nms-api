@@ -27,15 +27,15 @@
     "aviation",
     "typescript"
   ],
-  "author": "VOTRE_NOM_OU_PSEUDO",
+  "author": "DimaD16",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VOTRE_PSEUDO/faa-nms-api.git"
+    "url": "git+https://github.com/DimaD16/faa-nms-api.git"
   },
   "bugs": {
-    "url": "https://github.com/VOTRE_PSEUDO/faa-nms-api/issues"
+    "url": "https://github.com/DimaD16/faa-nms-api/issues"
   },
-  "homepage": "https://github.com/VOTRE_PSEUDO/faa-nms-api#readme",
+  "homepage": "https://github.com/DimaD16/faa-nms-api#readme",
   "license": "MIT",
   "devDependencies": {
     "@types/nock": "^10.0.3",
