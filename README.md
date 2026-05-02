@@ -1,6 +1,6 @@
 <div align="center">
   <h1>✈️ FAA NMS API Client</h1>
-  <p><strong>A fully typed, robust, and zero-dependency Node.js/TypeScript client for the Federal Aviation Administration (FAA) NOTAM Management System (NMS) API.</strong></p>
+  <p><strong>A fully typed, robust, and zero-dependency Node.js/TypeScript client for the Federal Aviation Administration (FAA) NOTAM Management System (NMS) API (<a href="https://nms.aim.faa.gov/">https://nms.aim.faa.gov/</a>).</strong></p>
   
   [![npm version](https://img.shields.io/npm/v/faa-nms-api.svg?style=flat-square)](https://www.npmjs.com/package/faa-nms-api)
   [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-blue.svg?style=flat-square)](https://www.typescriptlang.org/)
@@ -21,6 +21,7 @@ This library handles **all the heavy lifting**:
 
 ## 📑 Table of Contents
 - [Installation](#-installation)
+- [Getting API Access](#-getting-api-access)
 - [Quick Start](#-quick-start)
 - [Client Configuration](#-client-configuration)
 - [API Reference](#-api-reference)
@@ -47,6 +48,17 @@ yarn add faa-nms-api
 # or
 pnpm add faa-nms-api
 ```
+
+---
+
+## 🔑 Getting API Access
+
+To obtain your API credentials (`clientId` and `clientSecret`), you must request access from the FAA:
+
+1. Go to [https://nms.aim.faa.gov/](https://nms.aim.faa.gov/)
+2. Click on **Get API Access and Documentation**
+3. Click on **API access request page**
+4. Click on **Request API Access**
 
 ---
 
