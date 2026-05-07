@@ -20,7 +20,12 @@ jobs:
         with:
           node-version: '24'
           registry-url: 'https://registry.npmjs.org'
+      
       - run: npm ci
+      
       - run: npm run build --if-present
+      
       - run: npm test
-      - run: npm publish
+      
+      **- run: npm version patch --no-git-tag-version**
+      **- run: npm publish --access public**
