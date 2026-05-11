@@ -26,5 +26,5 @@ jobs:
       - run: npm run build --if-present
       
       - run: npm test
-**- run: npm version patch --no-git-tag-version**
-**- run: npm publish --access public**
+      - run: npm version patch --no-git-tag-version
+      - run: npm publish --access public
